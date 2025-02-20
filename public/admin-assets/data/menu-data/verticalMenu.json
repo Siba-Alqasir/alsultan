@@ -1,0 +1,606 @@
+{
+    "menu": [
+        {
+            "navheader": "dashboard",
+            "slug": ""
+        },
+        {
+            "url": "admin/home",
+            "name": "dashboard",
+            "icon": "home",
+            "slug": "admin/home",
+            "permissions": "pages-list"
+        },
+        {
+            "url": "admin/inquiries",
+            "name": "inquiries",
+            "icon": "circle",
+            "slug": "admin/inquiries",
+            "permissions": "inquiries-list"
+        },
+        {
+            "navheader": "Information Pages",
+            "slug": ""
+        },
+        {
+            "name": "home_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/home_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/home_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/home_page_about",
+                    "name": "home_page_about",
+                    "icon": "circle",
+                    "slug": "admin/sections/home_page_about",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/features",
+                    "name": "features",
+                    "icon": "circle",
+                    "slug": "admin/features",
+                    "permission": "features-list"
+                },
+                {
+                    "url": "admin/services",
+                    "name": "services",
+                    "icon": "circle",
+                    "slug": "admin/services",
+                    "permission": "services-list"
+                },
+                {
+                    "url": "admin/partners",
+                    "name": "partners",
+                    "icon": "circle",
+                    "slug": "admin/partners",
+                    "permission": "partners-list"
+                },
+                {
+                    "url": "admin/sections/home_page_interest",
+                    "name": "home_page_interest",
+                    "icon": "circle",
+                    "slug": "admin/sections/home_page_interest",
+                    "permission":  "sections-edit"
+                }
+            ]
+        },
+        {
+            "name": "destinations_experiences",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "name": "destinations",
+                    "slug": "/",
+                    "icon": "circle",
+                    "permission": "destinations-list",
+                    "submenu": [
+                        {
+                            "url": "admin/pages/destinations_page",
+                            "name": "page_info",
+                            "icon": "circle",
+                            "slug": "admin/pages/destinations_page",
+                            "permission": "pages-list"
+                        },
+                        {
+                            "url": "admin/sections/destinations_page_about",
+                            "name": "destinations_page_about",
+                            "icon": "circle",
+                            "slug": "admin/sections/destinations_page_about",
+                            "permission":  "sections-edit"
+                        },
+                        {
+                            "url": "admin/destinations",
+                            "name": "destinations",
+                            "icon": "circle",
+                            "slug": "admin/destinations",
+                            "permission": "destinations-list"
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/experiences",
+                    "name": "experiences",
+                    "icon": "circle",
+                    "slug": "admin/experiences",
+                    "permission": "experiences-list"
+                }
+            ]
+        },
+        {
+            "name": "events",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "events-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/events_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/events_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/events_page_events",
+                    "name": "events_page_events",
+                    "icon": "circle",
+                    "slug": "admin/sections/events_page_events",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/sections/events_page_happy_customers",
+                    "name": "events_page_happy_customers",
+                    "icon": "circle",
+                    "slug": "admin/sections/events_page_happy_customers",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/events-galleries",
+                    "name": "events_galleries",
+                    "icon": "circle",
+                    "slug": "admin/events-galleries",
+                    "permission": "events-galleries-list"
+                },
+                {
+                    "url": "admin/sections/events_page_interest",
+                    "name": "events_page_interest",
+                    "icon": "circle",
+                    "slug": "admin/sections/events_page_interest",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/events",
+                    "name": "events",
+                    "icon": "circle",
+                    "slug": "admin/events",
+                    "permission": "events-list"
+                }
+            ]
+        },
+        {
+            "name": "education_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/education_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/education_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/education_page_about",
+                    "name": "education_page_about",
+                    "icon": "circle",
+                    "slug": "admin/sections/education_page_about",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/learnings",
+                    "name": "learnings",
+                    "icon": "circle",
+                    "slug": "admin/learnings",
+                    "permission": "learnings-list"
+                },
+                {
+                    "url": "admin/sections/education_page_approach",
+                    "name": "education_page_approach",
+                    "icon": "circle",
+                    "slug": "admin/sections/education_page_approach",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/sections/education_page_borders",
+                    "name": "education_page_borders",
+                    "icon": "circle",
+                    "slug": "admin/sections/education_page_borders",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/heros?type=hero",
+                    "name": "heros",
+                    "icon": "circle",
+                    "slug": "admin/heros?type=hero",
+                    "permission": "teams-list"
+                },
+                {
+                    "url": "admin/sections/education_page_inquire",
+                    "name": "education_page_inquire",
+                    "icon": "circle",
+                    "slug": "admin/sections/education_page_inquire",
+                    "permission":  "sections-edit"
+                }
+            ]
+        },
+        {
+            "name": "why_us_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/why_us_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/why_us_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/awards-categories",
+                    "name": "awards_categories",
+                    "icon": "circle",
+                    "slug": "admin/awards-categories",
+                    "permission": "awards-categories-list"
+                },
+                {
+                    "url": "admin/awards",
+                    "name": "awards",
+                    "icon": "circle",
+                    "slug": "admin/awards",
+                    "permission": "awards-list"
+                },
+                {
+                    "url": "admin/timelines",
+                    "name": "timelines",
+                    "icon": "circle",
+                    "slug": "admin/timelines",
+                    "permission": "timelines-list"
+                },
+                {
+                    "url": "admin/teams",
+                    "name": "teams",
+                    "icon": "circle",
+                    "slug": "admin/teams",
+                    "permission": "teams-list"
+                }
+            ]
+        },
+        {
+            "name": "media_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/media_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/media_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/spotlights",
+                    "name": "spotlights",
+                    "icon": "circle",
+                    "slug": "admin/spotlights",
+                    "permission": "spotlights-list"
+                },
+                {
+                    "url": "admin/celebrities?type=celebrity",
+                    "name": "celebrity",
+                    "icon": "circle",
+                    "slug": "admin/celebrities?type=celebrity",
+                    "permission": "teams-list"
+                },
+                {
+                    "url": "admin/media-kits-categories",
+                    "name": "media_kits_categories",
+                    "icon": "circle",
+                    "slug": "admin/media-kits-categories",
+                    "permission": "media-kits-categories-list"
+                },
+                {
+                    "url": "admin/media-kits",
+                    "name": "media_kits",
+                    "icon": "circle",
+                    "slug": "admin/media-kits",
+                    "permission": "media-kits-list"
+                }
+            ]
+        },
+        {
+            "name": "destination_consulting_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/destination_consulting_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/destination_consulting_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/consulting_page_empowering",
+                    "name": "consulting_page_empowering",
+                    "icon": "circle",
+                    "slug": "admin/sections/consulting_page_empowering",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/elevates?type=elevate",
+                    "name": "elevate",
+                    "icon": "circle",
+                    "slug": "admin/elevates?type=elevate",
+                    "permission": "learnings-list"
+                },
+                {
+                    "url": "admin/sections/consulting_page_trusted",
+                    "name": "consulting_page_trusted",
+                    "icon": "circle",
+                    "slug": "admin/sections/consulting_page_trusted",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/sections/consulting_page_unique",
+                    "name": "consulting_page_unique",
+                    "icon": "circle",
+                    "slug": "admin/sections/consulting_page_unique",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/sections/consulting_page_mission",
+                    "name": "consulting_page_mission",
+                    "icon": "circle",
+                    "slug": "admin/sections/consulting_page_mission",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/consulting-galleries",
+                    "name": "consulting_galleries",
+                    "icon": "circle",
+                    "slug": "admin/consulting-galleries",
+                    "permission":  "consulting-galleries-edit"
+                },
+                {
+                    "url": "admin/sections/consulting_page_interest",
+                    "name": "consulting_page_interest",
+                    "icon": "circle",
+                    "slug": "admin/sections/consulting_page_interest",
+                    "permission":  "sections-edit"
+                }
+            ]
+        },
+        {
+            "name": "careers_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/careers_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/careers_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/careers",
+                    "name": "careers",
+                    "icon": "circle",
+                    "slug": "admin/careers",
+                    "permission":  "careers-edit"
+                }
+            ]
+        },
+        {
+            "url": "admin/pages/contact_us_page",
+            "name": "contact_us_page",
+            "icon": "circle",
+            "slug": "admin/pages/contact_us_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/thank_you_page",
+            "name": "thank_you_page",
+            "icon": "circle",
+            "slug": "admin/pages/thank_you_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/booking_confirmed_page",
+            "name": "booking_confirmed_page",
+            "icon": "circle",
+            "slug": "admin/pages/booking_confirmed_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/privacy_policy_page",
+            "name": "privacy_policy_page",
+            "icon": "circle",
+            "slug": "admin/pages/privacy_policy_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/terms_and_conditions_page",
+            "name": "terms_and_conditions_page",
+            "icon": "circle",
+            "slug": "admin/pages/terms_and_conditions_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/not_found_page",
+            "name": "not_found_page",
+            "icon": "circle",
+            "slug": "admin/pages/not_found_page",
+            "permission": "pages-list"
+        },
+        {
+            "name": "adventures_landing_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/adventures_landing_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/adventures_landing_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/landing_page_about",
+                    "name": "home_page_about",
+                    "icon": "circle",
+                    "slug": "admin/sections/landing_page_about",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "name": "landing_page_event",
+                    "slug": "/",
+                    "icon": "circle",
+                    "permission": "landing-events-list",
+                    "submenu": [
+                        {
+                            "url": "admin/sections/landing_page_event",
+                            "name": "landing_page_event",
+                            "icon": "circle",
+                            "slug": "admin/sections/landing_page_event",
+                            "permission":  "sections-edit"
+                        },
+                        {
+                            "url": "admin/landing-events",
+                            "name": "landing_events",
+                            "icon": "circle",
+                            "slug": "admin/landing-events",
+                            "permission":  "landing-events-list"
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/sections/landing_page_booking",
+                    "name": "landing_page_booking",
+                    "icon": "circle",
+                    "slug": "admin/sections/landing_page_booking",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/tickets",
+                    "name": "tickets",
+                    "icon": "circle",
+                    "slug": "admin/tickets",
+                    "permission":  "tickets-list"
+                },
+                {
+                    "url": "admin/sections/landing_page_directions",
+                    "name": "landing_page_directions",
+                    "icon": "circle",
+                    "slug": "admin/sections/landing_page_directions",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "name": "landing_page_partners",
+                    "slug": "/",
+                    "icon": "circle",
+                    "permission": "partners-list",
+                    "submenu": [
+                        {
+                            "url": "admin/sections/landing_page_partners",
+                            "name": "landing_page_partners",
+                            "icon": "circle",
+                            "slug": "admin/sections/landing_page_partners",
+                            "permission":  "sections-edit"
+                        },
+                        {
+                            "url": "admin/partners?type=landing",
+                            "name": "partners",
+                            "icon": "circle",
+                            "slug": "admin/partners?type=landing",
+                            "permission": "partners-list"
+                        }
+                    ]
+                },
+                {
+                    "url": "admin/faqs",
+                    "name": "faqs",
+                    "icon": "circle",
+                    "slug": "admin/faqs",
+                    "permission":  "faqs-list"
+                },
+                {
+                    "url": "admin/sections/landing_page_contact",
+                    "name": "landing_page_contact",
+                    "icon": "circle",
+                    "slug": "admin/sections/landing_page_contact",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/events-galleries?event_id=1&type=landing",
+                    "name": "landing_galleries",
+                    "icon": "circle",
+                    "slug": "admin/events-galleries?event_id=1&type=landing",
+                    "permission": "events-galleries-list"
+                }
+            ]
+        },
+        {
+            "navheader": "Translation",
+            "slug": ""
+        },
+        {
+            "url": "admin/translation",
+            "name": "translations",
+            "icon": "circle",
+            "slug": "translation.index",
+            "permissions": "translations-list"
+        },
+        {
+            "navheader": "settings",
+            "slug": ""
+        },
+        {
+            "url": "admin/settings",
+            "name": "settings",
+            "icon": "circle",
+            "slug": "settings.index",
+            "permissions": "settings-list"
+        },
+        {
+            "url": "admin/contact-emails",
+            "name": "contact_emails",
+            "icon": "circle",
+            "slug": "contact-emails.index",
+            "permissions": "contact-emails-list"
+        },
+        {
+            "navheader": "Role Settings",
+            "slug": ""
+        },
+        {
+            "name": "users_and_roles",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "users-list,roles-list",
+            "submenu": [
+                {
+                    "url": "admin/users",
+                    "name": "users",
+                    "icon": "circle",
+                    "slug": "admin/users",
+                    "permission": "users-list"
+                },
+                {
+                    "url": "admin/roles",
+                    "name": "roles",
+                    "icon": "circle",
+                    "slug": "admin/roles",
+                    "permission": "roles-list"
+                }
+
+            ]
+        }
+    ]
+
+}

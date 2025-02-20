@@ -1,0 +1,540 @@
+{
+    "menu": [
+        {
+            "navheader": "dashboard",
+            "slug": "",
+            "permission": ""
+        },
+        {
+            "url": "admin/home",
+            "name": "dashboard",
+            "icon": "home",
+            "slug": "admin/home",
+            "permission": ""
+        },
+        {
+            "url": "admin/inquiries?type=contact",
+            "name": "contact-inquiries",
+            "icon": "circle",
+            "slug": "admin/inquiries?type=contact",
+            "permission": "inquiries-list"
+        },
+        {
+            "url": "admin/inquiries?type=inquiry",
+            "name": "inquiries",
+            "icon": "circle",
+            "slug": "admin/inquiries?type=inquiry",
+            "permission": "inquiries-list"
+        },
+        {
+            "url": "admin/inquiries?type=tailormade",
+            "name": "tailor-inquiries",
+            "icon": "circle",
+            "slug": "admin/inquiries?type=tailormade",
+            "permission": "inquiries-list"
+        },
+        {
+            "navheader": "Categories",
+            "slug": "",
+            "permission": "categories-list,products-list"
+        },
+        {
+            "url": "admin/categories",
+            "name": "categories",
+            "icon": "circle",
+            "slug": "admin/categories",
+            "permission": "categories-list"
+        },
+        {
+            "name": "products-by-category",
+            "slug": "products",
+            "icon": "circle",
+            "permission": "products-list",
+            "submenu": [
+                {
+                    "url": "admin/products?category=1",
+                    "name": "interlocking_tiles_products",
+                    "icon": "circle",
+                    "slug": "admin/products?category=1",
+                    "permission": "products-list"
+                },
+                {
+                    "url": "admin/products?category=2",
+                    "name": "kerbstone_products",
+                    "icon": "circle",
+                    "slug": "admin/products?category=2",
+                    "permission": "products-list"
+                },
+                {
+                    "url": "admin/products?category=3",
+                    "name": "cable_products",
+                    "icon": "circle",
+                    "slug": "admin/products?category=3",
+                    "permission": "products-list"
+                },
+                {
+                    "url": "admin/products?category=4",
+                    "name": "hollow_products",
+                    "icon": "circle",
+                    "slug": "admin/products?category=4",
+                    "permission": "products-list"
+                },
+                {
+                    "url": "admin/products?category=5",
+                    "name": "concrecte_products",
+                    "icon": "circle",
+                    "slug": "admin/products?category=5",
+                    "permission": "products-list"
+                }
+            ]
+        },
+        {
+            "url": "admin/products-by-size",
+            "name": "products-by-size",
+            "icon": "circle",
+            "slug": "admin/products-by-size",
+            "permission": "products-list"
+        },
+        {
+            "name": "interlocking_tiles",
+            "slug": "categories",
+            "icon": "circle",
+            "permission": "finishes-list,colors-list,patterns-list,sizes-list",
+            "submenu": [
+                {
+                    "url": "admin/finishes",
+                    "name": "finishes",
+                    "icon": "circle",
+                    "slug": "admin/finishes",
+                    "permission": "finishes-list"
+                },
+                {
+                    "url": "admin/colors",
+                    "name": "colors",
+                    "icon": "circle",
+                    "slug": "admin/colors",
+                    "permission": "colors-list"
+                },
+                {
+                    "url": "admin/patterns",
+                    "name": "patterns",
+                    "icon": "circle",
+                    "slug": "admin/patterns",
+                    "permission": "patterns-list"
+                },
+                {
+                    "url": "admin/sizes",
+                    "name": "sizes",
+                    "icon": "circle",
+                    "slug": "admin/sizes",
+                    "permission": "sizes-list"
+                }
+            ]
+        },
+        {
+            "url": "admin/sections/tailor_made_design",
+            "name": "tailor_made_design",
+            "icon": "circle",
+            "slug": "admin/sections/tailor_made_design",
+            "permission":  "sections-edit"
+        },
+        {
+            "navheader": "Information Pages",
+            "slug": "",
+            "permission": "pages-list,sliders-list,sections-edit,companies-list,statistics-list,policies-list,certificates-list,services-list,projects-list,treatments-list,clients-list,news-list"
+        },
+        {
+            "name": "home_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permission": "pages-list,sliders-list,sections-edit,companies-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/home_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/home_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sliders",
+                    "name": "sliders",
+                    "icon": "circle",
+                    "slug": "admin/sliders",
+                    "permission": "sliders-list"
+                },
+                {
+                    "url": "admin/sections/home_page_visualizer",
+                    "name": "home_page_visualizer",
+                    "icon": "circle",
+                    "slug": "admin/sections/home_page_visualizer",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/sections/home_page_about",
+                    "name": "home_page_about",
+                    "icon": "circle",
+                    "slug": "admin/sections/home_page_about",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/companies",
+                    "name": "companies",
+                    "icon": "circle",
+                    "slug": "admin/companies",
+                    "permission": "companies-list"
+                }
+            ]
+        },
+        {
+            "name": "by-size-page",
+            "icon": "circle",
+            "slug": "admin/pages/by-size-page",
+            "permission": "pages-list,sections-edit",
+            "submenu": [
+                {
+                    "url": "admin/pages/by-size-page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/by-size-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/by_size_page_main",
+                    "name": "by_size_page_main",
+                    "icon": "circle",
+                    "slug": "admin/sections/by_size_page_main",
+                    "permission":  "sections-edit"
+                }
+            ]
+        },
+        {
+            "name": "tailormade-page",
+            "icon": "circle",
+            "slug": "admin/pages/tailormade-page",
+            "permission": "pages-list, sections-edit",
+            "submenu": [
+                {
+                    "url": "admin/pages/tailormade-page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/tailormade-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/tailormade-page-main",
+                    "name": "tailormade-page-main",
+                    "icon": "circle",
+                    "slug": "admin/sections/tailormade-page-main",
+                    "permission":  "sections-edit"
+                }
+            ]
+        },
+        {
+            "name": "about_us_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permission": "pages-list,sections-edit,statistics-list,policies-list,certificates-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/about-us-page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/about-us-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/about_page_main",
+                    "name": "about_page_main",
+                    "icon": "circle",
+                    "slug": "admin/sections/about_page_main",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/sections/about_page_vision",
+                    "name": "about_page_vision",
+                    "icon": "circle",
+                    "slug": "admin/sections/about_page_vision",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/sections/about_page_mission",
+                    "name": "about_page_mission",
+                    "icon": "circle",
+                    "slug": "admin/sections/about_page_mission",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/statistics",
+                    "name": "statistics",
+                    "icon": "circle",
+                    "slug": "admin/statistics",
+                    "permission": "statistics-list"
+                },
+                {
+                    "url": "admin/policies",
+                    "name": "policies",
+                    "icon": "circle",
+                    "slug": "admin/policies",
+                    "permission": "policies-list"
+                },
+                {
+                    "url": "admin/certificates",
+                    "name": "certificates",
+                    "icon": "circle",
+                    "slug": "admin/certificates",
+                    "permission": "certificates-list"
+                }
+            ]
+        },
+        {
+            "name": "services-page",
+            "icon": "circle",
+            "slug": "admin/pages/services-page",
+            "permission": "pages-list,services-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/services-page",
+                    "name": "services-page",
+                    "icon": "circle",
+                    "slug": "admin/pages/services-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/services",
+                    "name": "services",
+                    "icon": "circle",
+                    "slug": "admin/services",
+                    "permission": "services-list"
+                }
+            ]
+        },
+        {
+            "name": "projects-page",
+            "icon": "circle",
+            "slug": "admin/pages/projects-page",
+            "permission": "pages-list,projects-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/projects-page",
+                    "name": "projects-page",
+                    "icon": "circle",
+                    "slug": "admin/pages/projects-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/projects",
+                    "name": "projects",
+                    "icon": "circle",
+                    "slug": "admin/projects",
+                    "permission": "projects-list"
+                },
+                {
+                    "url": "admin/projects-gallery",
+                    "name": "gallery",
+                    "icon": "circle",
+                    "slug": "admin/projects-gallery",
+                    "permission": "projects-list"
+                }
+            ]
+        },
+        {
+            "name": "surface-page",
+            "icon": "circle",
+            "slug": "admin/pages/surface-page",
+            "permission": "pages-list,treatments-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/surface-page",
+                    "name": "surface-page",
+                    "icon": "circle",
+                    "slug": "admin/pages/surface-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "name": "treatments",
+                    "icon": "circle",
+                    "slug": "admin/treatments",
+                    "permission": "treatments-list",
+                    "url": "admin/treatments"
+                }
+            ]
+        },
+        {
+            "name": "clients-page",
+            "icon": "circle",
+            "slug": "admin/pages/clients-page",
+            "permission": "pages-list,clients-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/clients-page",
+                    "name": "clients-page",
+                    "icon": "circle",
+                    "slug": "admin/pages/clients-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "name": "clients",
+                    "icon": "circle",
+                    "slug": "admin/clients",
+                    "permission": "clients-list",
+                    "url": "admin/clients"
+                }
+            ]
+        },
+        {
+            "name": "news-page",
+            "icon": "circle",
+            "slug": "admin/pages/blogs-page",
+            "permission": "news-list,pages-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/blogs-page",
+                    "name": "news-page",
+                    "icon": "circle",
+                    "slug": "admin/pages/blogs-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/news",
+                    "name": "news",
+                    "icon": "circle",
+                    "slug": "admin/news",
+                    "permission": "news-list"
+                }
+            ]
+        },
+        {
+            "name": "contact_us_page",
+            "icon": "circle",
+            "slug": "admin/pages/contact_us_page",
+            "permission": "pages-list,sections-edit",
+            "submenu": [
+                {
+                    "url": "admin/pages/contact_us_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/contact_us_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/contact_page_get_contact",
+                    "name": "contact_page_get_contact",
+                    "icon": "circle",
+                    "slug": "admin/sections/contact_page_get_contact",
+                    "permission":  "sections-edit"
+                }
+            ]
+        },
+        {
+            "name": "inquiry-page",
+            "icon": "circle",
+            "slug": "admin/pages/inquiry-page",
+            "permission": "pages-list,sections-edit",
+            "submenu": [
+                {
+                    "url": "admin/pages/inquiry-page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/inquiry-page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/inquiry_page_main",
+                    "name": "inquiry_page_main",
+                    "icon": "circle",
+                    "slug": "admin/sections/inquiry_page_main",
+                    "permission":  "sections-edit"
+                }
+            ]
+        },
+        {
+            "url": "admin/pages/thank_you_page",
+            "name": "thank_you_page",
+            "icon": "circle",
+            "slug": "admin/pages/thank_you_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/privacy_policy_page",
+            "name": "privacy_policy_page",
+            "icon": "circle",
+            "slug": "admin/pages/privacy_policy_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/terms_and_conditions_page",
+            "name": "terms_and_conditions_page",
+            "icon": "circle",
+            "slug": "admin/pages/terms_and_conditions_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/search_page",
+            "name": "search_page",
+            "icon": "circle",
+            "slug": "admin/pages/search_page",
+            "permission": "pages-list"
+        },
+        {
+            "url": "admin/pages/not_found_page",
+            "name": "not_found_page",
+            "icon": "circle",
+            "slug": "admin/pages/not_found_page",
+            "permission": "pages-list"
+        },
+        {
+            "navheader": "Translation",
+            "slug": "",
+            "permission": "translations-list"
+        },
+        {
+            "url": "admin/translation",
+            "name": "translations",
+            "icon": "circle",
+            "slug": "translation.index",
+            "permission": "translations-list"
+        },
+        {
+            "navheader": "settings",
+            "slug": "",
+            "permission": "settings-list"
+        },
+        {
+            "url": "admin/settings",
+            "name": "settings",
+            "icon": "circle",
+            "slug": "settings.index",
+            "permission": "settings-list"
+        },
+        {
+            "navheader": "Role Settings",
+            "slug": "",
+            "permission": "users-list,roles-list"
+        },
+        {
+            "name": "users_and_roles",
+            "slug": "pages",
+            "icon": "circle",
+            "permission": "users-list,roles-list",
+            "submenu": [
+                {
+                    "url": "admin/users",
+                    "name": "users",
+                    "icon": "circle",
+                    "slug": "admin/users",
+                    "permission": "users-list"
+                },
+                {
+                    "url": "admin/roles",
+                    "name": "roles",
+                    "icon": "circle",
+                    "slug": "admin/roles",
+                    "permission": "roles-list"
+                }
+
+            ]
+        }
+    ]
+
+}

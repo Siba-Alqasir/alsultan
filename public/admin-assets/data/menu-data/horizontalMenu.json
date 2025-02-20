@@ -1,0 +1,205 @@
+{
+    "menu": [
+        {
+            "name": "home_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "users-list,roles-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/home_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/home_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/sections/home_page_main_brief",
+                    "name": "home_page_main_brief",
+                    "icon": "circle",
+                    "slug": "admin/sections/home_page_main_brief",
+                    "permission":  "sections-edit"
+                },
+                {
+                    "url": "admin/banners",
+                    "name": "sliders",
+                    "icon": "circle",
+                    "slug": "admin/banners",
+                    "permission": "banners-list"
+
+                }
+            ]
+        },
+        {
+            "name": "about_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list,sections-edit",
+            "submenu": [
+                {
+                    "url": "admin/pages/about_us_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/about_us_page.index",
+                    "permission": "pages-list"
+                }
+            ]
+        },
+        {
+            "name": "service_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list,services-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/services_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/services_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/services",
+                    "name": "services",
+                    "icon": "circle",
+                    "slug": "admin/services",
+                    "permission": "services-list"
+                }
+            ]
+        },
+        {
+            "name": "categories",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "categories-list",
+            "url": "admin/categories"
+        },
+        {
+            "name": "pets",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pets-list",
+            "url": "admin/pets"
+        },
+        {
+            "name": "sizes",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "sizes-list",
+            "url": "admin/sizes"
+        },
+        {
+            "name": "prices",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "prices-list",
+            "url": "admin/prices"
+        },
+        {
+            "name": "blogs_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list,blogs-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/blogs_page",
+                    "name": "page_info",
+                    "icon": "circle",
+                    "slug": "admin/pages/blogs_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/blogs",
+                    "name": "blogs",
+                    "icon": "circle",
+                    "slug": "admin/blogs",
+                    "permission":  "blogs-list"
+                }
+            ]
+        },
+        {
+            "name": "contact_us_page",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list,sections-list,contact-requests-list",
+            "submenu": [
+                {
+                    "url": "admin/pages/contact_page",
+                    "name": "contact_page",
+                    "icon": "circle",
+                    "slug": "admin/pages/contact_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/contact-requests",
+                    "name": "contact-requests",
+                    "icon": "circle",
+                    "slug": "contact-requests",
+                    "permission": "contact-requests-list"
+                }
+            ]
+        },
+
+        {
+            "name": "other_pages",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "pages-list",
+            "submenu": [
+
+                {
+                    "url": "admin/pages/privacy_policy_page",
+                    "name": "privacy_policy_page",
+                    "icon": "circle",
+                    "slug": "admin/pages/privacy_policy_page",
+                    "permission": "pages-list"
+                },
+                {
+                    "url": "admin/pages/terms_and_conditions",
+                    "name": "terms_and_conditions",
+                    "icon": "circle",
+                    "slug": "admin/pages/terms_and_conditions",
+                    "permission": "pages-list"
+                }
+            ]
+        },
+        {
+            "name": "users_and_roles",
+            "slug": "pages",
+            "icon": "circle",
+            "permissions": "users-list,roles-list",
+            "submenu": [
+                {
+                    "url": "admin/users",
+                    "name": "users",
+                    "icon": "circle",
+                    "slug": "admin/users",
+                    "permission": "users-list"
+                },
+                {
+                    "url": "admin/roles",
+                    "name": "roles",
+                    "icon": "circle",
+                    "slug": "admin/roles",
+                    "permission": "roles-list"
+                }
+
+            ]
+        },
+        {
+            "url": "admin/translation",
+            "name": "translations",
+            "icon": "circle",
+            "slug": "translation.index",
+            "permissions": "translations-list"
+        },
+        {
+            "url": "admin/settings",
+            "name": "settings",
+            "icon": "circle",
+            "slug": "settings",
+            "permissions": "settings-list"
+        }
+    ]
+
+}
